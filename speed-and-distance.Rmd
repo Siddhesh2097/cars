@@ -1,13 +1,8 @@
 ---
-title: "speed-and-distance"
-knit: (function(input_file, encoding) {
-  out_dir <- 'docs';
-  rmarkdown::render(input_file,
-    encoding=encoding,
+title: "Speed and Distance"
     output_file=file.path(dirname(input_file), out_dir, 'index.html'))})
 author: "Siddhesh Pujari"
 date: "2024-07-06"
-output: html_document
 ---
 
 ```{r setup, include=FALSE}
